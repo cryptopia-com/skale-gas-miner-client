@@ -133,7 +133,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\skale-gas-miner\$(IntDir)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SkaleGasMiner.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Cryptopia.SkaleGasMiner.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y /d "..\skale-gas-miner\$(IntDir)Cryptopia.SkaleGasMiner.dll" "$(OutDir)"</Command>
